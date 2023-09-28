@@ -8,6 +8,7 @@
 
 #### https://adriang1004.github.io/web-portfolio-adrian
 
+![Screenshot](https://github.com/adriang1004/web-portfolio-adrian/assets/144719329/952a55d9-450d-4f48-9af7-95e14619c25e)
 
 
 ###### Code sources: -Took from sample code a TA referred me to through our curriculum in exercises 13-14 for html layout.
