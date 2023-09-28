@@ -1,0 +1,138 @@
+body, h1, p, ul {
+    margin: 1px;
+    padding: 15px;
+}
+h2 {
+    margin: 1px;
+    padding: 15px;
+    font-weight: bold; 
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #363636;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #24193b;
+    color: lightgrey;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgrey;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 30%;
+}
+
+/* created a shadow color to be slightly lighter than the dark purple used on box background */
+form {
+    background-color: #24193b;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #57408a;
+    
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 15px; 
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Added a border radius to create a round outline/border */
+#avatar {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    margin-top: 20px;
+}
+
+nav li {
+    margin-right: 10px;
+    font-weight: bold;
+}
+/* changed 'theme' to a darker color */
+.about {
+    padding: 20px, 0, 20px, 0; 
+}
+.project {
+    padding: 20px, 0, 20px, 0; 
+}
+
+.projects {
+    padding: 40px, 0px, 40px, 0px; 
+}
+
+#about {
+    color: lightgrey; 
+    padding: 20px, 0, 20px, 0; 
+}
+#projects {
+    color: lightgrey; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px, 0, 20px, 0; 
+}
+
+#contact {
+    color: lightgrey; 
+}
+footer {
+    color: lightgrey; 
+}
+.project {
+    flex-basis: calc(50% - 20px);
+}
+
+@media (max-width: 768px) {
+    #projects {
+        flex-direction: column;
+    }
+}
