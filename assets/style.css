@@ -99,10 +99,10 @@ nav li {
 }
 /* changed 'theme' to a darker color */
 .about {
-    padding: 20px, 0, 20px, 0; 
+    padding: 20px, 0px, 20px, 0px; 
 }
 .project {
-    padding: 20px, 0, 20px, 0; 
+    padding: 20px, 0px, 20px, 0px; 
 }
 
 .projects {
@@ -111,14 +111,14 @@ nav li {
 
 #about {
     color: lightgrey; 
-    padding: 20px, 0, 20px, 0; 
+    padding: 20px, 0px, 20px, 0px; 
 }
 #projects {
     color: lightgrey; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px, 0, 20px, 0; 
+    padding: 20px, 0px, 20px, 0px; 
 }
 
 #contact {
